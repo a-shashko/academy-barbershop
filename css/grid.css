@@ -1,0 +1,330 @@
+/*Сеточные стили*/
+html,
+body {
+	min-width: 1122px;
+	min-height: 1756px;
+}
+
+body {
+	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/barbershop-index-1.jpg");
+	background-repeat: no-repeat;
+}
+
+.inner-page {
+	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/barbershop-price.jpg");
+	background-repeat: no-repeat;
+	background-size: 1200px auto;
+	background-position: top center;
+}
+
+.main-header {
+	margin-bottom: 70px;
+	min-height: 289px;
+	outline: 1px solid green;
+}
+
+.inner-page .main-header {
+	min-height: 70px;
+	margin-bottom: 50px;
+	outline: 1px solid green;
+}
+
+.main-navigation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 286px;
+	outline: 1px solid red;
+	background: transparent;
+}
+
+.inner-page .main-navigation {
+	align-items: flex-start;
+	flex-direction: row;
+	min-height: 70px;
+	outline: 1px solid red;
+}
+
+.main-header-logo {
+	order: 2;
+	width: 371px;
+	height: 159px;
+	outline: 1px solid yellow;
+}
+
+.inner-page .main-header-logo {
+	order: 0;
+	width: 111px;
+	height: 24px;
+	padding: 23px 20px;
+	outline: 1px solid yellow;
+}
+
+.site-navigation {
+	margin: 0;
+	padding: 0;
+	min-width: 630px;
+	min-height: 70px;
+	outline: 2px solid yellow;
+}
+
+.user-navigation {
+	margin: 0;
+	padding: 0;
+	min-width: 140px;
+	min-height: 70px;
+	outline: 1px solid yellow;
+}
+
+.inner-page .user-navigation {
+	margin-left: auto;
+}
+
+.wrapper-main-navigation {
+	width: 100%;
+	margin-bottom: 51px;
+	min-height: 70px;
+}
+
+.container {
+	width: 941px;
+	margin: 0 auto;
+	padding: 0 10px;
+	otline: 1px solid green;
+}
+
+.wrapper-main-navigation .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.features {
+	margin-bottom: 78px;
+}
+
+.features-list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	min-height: 165px;
+	outline: 1px solid blue;
+}
+
+.feature-item {
+	width: 300px;
+	min-height: 165px;
+	outline: 1px solid green;
+}
+
+.index-columns {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 35px;
+	padding: 50px 80px;
+	background: transparent;
+	outline: 1px solid blue;
+}
+
+.news, .gallery {
+	min-height: 316px;
+	outline: 1px solid green;
+}
+
+.news {
+	width: 380px;
+}
+
+.gallery {
+	width: 300px;
+}
+
+.contacts {
+	width: 380px;
+	min-height: 285px;
+	outline: 1px solid green;
+}
+
+.appointment {
+	width: 300px;
+	min-height: 330px;
+	outline: 1px solid green;
+}
+
+.page-title {
+	min-height: 42px;
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	outline: 1px solid red;
+}
+
+.breadcrumbs {
+	min-height: 20px;
+	margin: 0;
+	margin-bottom: 50px;
+	padding: 0;
+	outline: 1px solid red;
+}
+
+.filters {
+	width: 170px;
+	min-height: 687px;
+	outline: 1px solid red;
+}
+
+.catalog {
+	width: 700px;
+	min-height: 605px;
+	outline: 1px solid red;
+}
+
+.catalog-columns {
+	display: flex;
+	justify-content: space-between;
+	outline: 1px solid red;
+}
+
+.catalog-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	margin-bottom: 25px;
+	padding: 0;
+	list-style: none;
+}
+
+.catalog-item {
+	width: 220px;
+	min-height: 285px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	outline: 1px solid yellow;
+}
+
+.catalog-item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.pagination-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	min-height: 45px;
+	list-style: none;
+	outline: 1px solid blue;
+}
+
+.product-photos {
+	width: 460px;
+	min-height: 668px;
+	outline: 1px solid yellow;
+}
+
+.product-info {
+	width: 390px;
+	min-height: 668px;
+	outline: 1px solid yellow;
+}
+
+/*prises*/
+.price-title {
+	min-height: 45px;
+	margin-top: 50px;
+	margin-bottom: 55px;
+	outline: 1px solid red;
+}
+
+.price-title h2 {
+	width: 580px;
+	min-height: 50px;
+	margin: 0 auto;
+	padding: 0 20px;
+	outline: 1px solid yellow;
+}
+
+.benefits {
+	width: 240px;
+	min-height: 220px;
+	outline: 1px solid yellow;
+}
+
+.benefits-list {
+	list-style: none;
+}
+
+.prices {
+	width: 460px;
+	min-height: 220px;
+	outline: 1px solid yellow;
+}
+
+.about-us {
+	margin-top: 65px;
+	margin-bottom: 75px;
+	min-height: 150px;
+	outline: 1px solid red;
+}
+
+.about-us-columns {
+	display: flex;
+}
+
+.about-us h3 {
+	min-height: 25px;
+	margin-bottom: 30px;
+	outline: 1px solid yellow;
+}
+
+.about-us p {
+	width: 380px;
+	margin: 0;
+	padding: 0;
+	min-height: 100px;
+	outline: 1px solid yellow;
+}
+
+.about-us p:nth-child(1) {
+	margin-right: 100px;
+}
+
+/*footer*/
+.inner-page .main-footer {
+	margin-top: 50px;
+	padding: 55px 0 30px;
+	outline: 1px solid green;
+}
+
+.main-footer {
+	margin: 30px 0 0;
+	padding: 65px 0 50px;
+}
+
+.main-footer .container {
+	display: flex;
+	outline: 1px solid yellow;
+}
+
+.footer-contacts {
+	width: 320px;
+	margin: 0;
+	margin-right: 85px;
+	min-height: 100px;
+	outline: 1px solid red;
+}
+
+.footer-social {
+	width: 140px;
+	margin: 0;
+	min-height: 100px;
+	outline: 1px solid red;
+}
+
+.footer-copyright {
+	width: 140px;
+	margin: 0;
+	margin-left: auto;
+	min-height: 100px;
+	outline: 1px solid red;
+}
