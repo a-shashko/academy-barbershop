@@ -8,7 +8,7 @@ body {
 	color: #ffffff;
 	text-transform: uppercase;
 	background-color: #000000;
-	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/background.jpg");
+	background-image: url("../img/background.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@ body {
 .inner-page {
 	color: #000000;
 	background-color: #ffffff;
-	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/pattern-light.jpg");
+	background-image: url("../img/pattern-light.jpg");
 	background-position: 0 0;
 	background-repeat: repeat;
 }
@@ -92,7 +92,7 @@ h3 {
 	background-color: #333333;
 }
 
-.wrapper-main-navigation {	
+.wrapper-main-navigation {
 	width: 100%;
 	margin-bottom: 50px;
 }
@@ -137,7 +137,7 @@ h3 {
 	padding: 50px 80px;
 	color: #000000;
 	background-color: #f8f5f12;
-	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/pattern-light.jpg");
+	background-image: url("../img/pattern-light.jpg");
 	background-position: 0 0;
 	background-repeat: repeat;
 }
@@ -311,7 +311,7 @@ h3 {
 	color: #000000;
 }
 
-.catalog-category, 
+.catalog-category,
 .catalog-item-title {
 	font-size: 14px;
 	line-height: 18px;
@@ -494,7 +494,7 @@ h3 {
 	padding: 65px 0 50px;
 	color: #ffffff;
 	background-color: #333333;
-	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/pattern-dark.jpg");
+	background-image: url("../img/pattern-dark.jpg");
 	background-position: 0 0;
 	background-repeat: repeat;
 }
@@ -546,7 +546,7 @@ h3 {
 .modal {
 	color: #000000;
 	background-color: #ffffff;
-	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/pattern-light.jpg");
+	background-image: url("../img/pattern-light.jpg");
 	background-position: 0 0;
 	background-repeat: repeat;
 }
@@ -556,7 +556,7 @@ h3 {
 	line-height: 42px;
 }
 
-.login-form input[type="text"], 
+.login-form input[type="text"],
 .login-form input[type="password"] {
 	font: inherit;
 	color: #000000;
