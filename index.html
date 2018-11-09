@@ -69,13 +69,15 @@
 				</section>
 				<section class="gallery">
 					<h2>Фотогаллерея</h2>
-					<figure class="gallery-content">
-						<a href="#">
-							<img src="img/studio.jpg" width="286" height="164" alt="Интерьер">
-						</a>
-					</figure>
-					<button class="button gallery-button gallery-button-prev">Назад</button>
-					<button class="button gallery-button gallery-button-next">Вперед</button>
+					<div class="gallery-container">
+						<figure class="gallery-content">
+							<a href="#">
+								<img src="img/studio.jpg" width="286" height="164" alt="Интерьер">
+							</a>
+						</figure>
+						<button class="button gallery-button gallery-button-prev">Назад</button>
+						<button class="button gallery-button gallery-button-next" disabled>Вперед</button>
+					</div>
 				</section>
 			</div>
 			<div class="index-columns">
@@ -96,7 +98,7 @@
 				</section>
 				<section class="appointment">
 					<h2>Записаться</h2>
-					<p class="appointment-item">
+					<p class="appointment-info">
 					Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони
 					</p>
 					<form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -105,15 +107,15 @@
 							<input type="text" name="date" id="date-field" value="" placeholder="08.10.2017">
 						</p>
 						<p class="appointment-item">
-							<label class="appointment-item" for="time-field">Время</label>
+							<label for="time-field">Время</label>
 							<input type="text" name="time" id="time-field" value="" placeholder="10:00">
 						</p>
 						<p class="appointment-item">
-							<label  class="appointment-item" for="name-field">Имя</label>
+							<label for="name-field">Имя</label>
 							<input type="text" name="name" id="name-field" value="" placeholder="Борода">
 						</p>
 						<p class="appointment-item">
-							<label class="appointment-item" for="number-field">Телефон</label>
+							<label for="number-field">Телефон</label>
 							<input type="text" name="number" id="number-field" value="" placeholder="+7 123 456-78-90">
 						</p>
 						<button class="button" type="submit">Отправить</button>
@@ -132,9 +134,13 @@
 				<div class="footer-social">
 					<b>Давайте дружить!</b>
 					<ul>
-						<li class="social-button"><a href="#">Вконтакте</a></li>
-						<li class="social-button"><a href="#">Фейсбук</a></li>
-						<li class="social-button"><a href="#">Инстаграмм</a></li>
+						<li class="social-button">
+							<a href="#" class="vk">
+							<span class="visually-hidden">Вконтакте</span>
+							</a>
+						</li>
+						<li class="social-button"><a href="#" class="facebook"><span class="visually-hidden">Фейсбук</span></a></li>
+						<li class="social-button"><a href="#" class="instagram"><span class="visually-hidden">Инстаграмм</span></a></li>
 					</ul>
 				</div>
 				<p class="footer-copyright">
