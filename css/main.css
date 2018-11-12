@@ -112,6 +112,25 @@ input[type="radio"].visually-hidden {
 	box-shadow: inset 0 0 0 2px rgba(234, 255, 45, 0.2);
 }
 
+.site-navigation li {
+	display: inline-block;
+}
+
+.site-navigation-current {
+	position: relative;
+}
+
+.site-navigation-current::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	right: 20px;
+	height: 5px;
+	background-color: #ffffff;
+
+}
+
 .user-navigation {
 	display: flex;
 	max-width: 140px;
@@ -119,7 +138,7 @@ input[type="radio"].visually-hidden {
 
 .site-navigation a,
 .user-navigation a {
-	display: inline-block;
+	display: block;
 	padding: 25px 20px;
 	vertical-align: middle;
 	color: #ffffff;
