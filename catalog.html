@@ -71,22 +71,16 @@
 							<legend>Группы товаров:</legend>
 							<ul>
 								<li class="filter-option">
-									<label>
-										<input type="radio" class="visually-hidden filter-input filter-input-radio" name="product-group" value="shaving">
-										Бритвенные принадлежности
-									</label>
+									<input type="radio" class="visually-hidden filter-input filter-input-radio" name="product-group" value="shaving" id="filter-shaving">
+									<label for="filter-shaving">Бритвенные принадлежности</label>
 								</li>
 								<li class="filter-option">
-									<label>
-										<input type="radio" class="visually-hidden filter-input filter-input-radio" name="product-group" value="hair-care" checked>
-										Средства для ухода
-									</label>
+									<input type="radio" class="visually-hidden filter-input filter-input-radio" name="product-group" value="hair-care" id="filter-hair-care" checked>
+									<label for="filter-hair-care">Средства для ухода</label>
 								</li>
 								<li class="filter-option">
-									<label>
-										<input type="radio" class="visually-hidden filter-input filter-input-radio" name="product-group" value="accessories">
-										Аксессуары
-									</label>
+									<input type="radio" class="visually-hidden filter-input filter-input-radio" name="product-group" value="accessories" id="filter-accessories">
+									<label for="filter-accessories">Аксессуары</label>
 								</li>
 							</ul>
 						</fieldset>
@@ -97,78 +91,102 @@
 					<h2 class="visually-hidden">Список средств для ухода</h2>
 					<ul class="catalog-list">
 						<li class="catalog-item">
-						<a href="#"><span class="catalog-category">Набор для путешествий</span></a>
-							<a href="catalog-item-1.html">
-							<span class="catalog-item-title">«Baxter of California»</span>
-								<p class="catalog-item-image">
+							<a href="catalog-item.html">
 									<img src="img/product-1.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»">
-								</p>
 							</a>
+							<p class="catalog-item-name">
+								<a href="#">
+									<span class="catalog-category">Набор для путешествий</span>
+								</a>
+								<a href="catalog-item.html">
+									<span class="catalog-item-title">«Baxter of California»</span>
+								</a>
+							</p>
 							<p class="catalog-item-price">
 								<b>2 900 ₽</b>
 								<button type="submit" class="button">Купить</button>
 							</p>
 						</li>
 						<li class="catalog-item">
-							<a href="catalog-item-2.html">
-								<p class="catalog-item-image">
-									<img src="img/product-2.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
-								</p>
-								<span class="catalog-category">Увлажняющий кондиционер</span>
+							<a href="#">
+								<img src="img/product-2.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
 							</a>
-							<a href="#"><span class="catalog-item-title">«Baxter of California»</span></a>
+							<p class="catalog-item-name">
+								<a href="#">
+									<span class="catalog-category">Увлажняющий кондиционер</span>
+								</a>
+								<a href="#">
+									<span class="catalog-item-title">«Baxter of California»</span>
+								</a>
+							</p>
 							<p class="catalog-item-price">
 								<b>750 ₽</b>
 								<button type="submit" class="button">Купить</button>
 							</p>
 						</li>
 						<li class="catalog-item">
-							<a href="catalog-item-3.html">
-								<p class="catalog-item-image">
-									<img src="img/product-3.jpg" width="220" height="165" alt="Гель для волос «SUAVECITO»">
-								</p>
-								<span class="catalog-category">Гель для волос</span>
+							<a href="#3">
+								<img src="img/product-3.jpg" width="220" height="165" alt="Гель для волос «SUAVECITO»">
 							</a>
-							<a href="#"><span class="catalog-item-title">«SUAVECITO»</span></a>
+							<p class="catalog-item-name">
+								<a href="#">
+									<span class="catalog-category">Гель для волос</span>
+								</a>
+								<a href="#">
+									<span class="catalog-item-title">«SUAVECITO»</span>
+								</a>
+							</p>
 							<p class="catalog-item-price">
 								<b>290 ₽</b>
 								<button type="submit" class="button">Купить</button>
 							</p>
 						</li>
 						<li class="catalog-item">
-							<a href="catalog-item-4.html">
-								<p class="catalog-item-image">
-									<img src="img/product-4.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
-								</p>
-								<span class="catalog-category">Глина для укладки волос</span>
+							<a href="#">
+								<img src="img/product-4.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
 							</a>
-							<a href="#"><span class="catalog-item-title">«American crew»</span></a>
+							<p class="catalog-item-name">
+								<a href="#">
+									<span class="catalog-category">Глина для укладки волос</span>
+								</a>
+								<a href="#">
+									<span class="catalog-item-title">«American crew»</span>
+								</a>
+							</p>
 							<p class="catalog-item-price">
 								<b>500 ₽</b>
 								<button type="submit" class="button">Купить</button>
 							</p>
 						</li>
 						<li class="catalog-item">
-							<a href="catalog-item-5.html">
-								<p class="catalog-item-image">
-									<img src="img/product-5.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
-								</p>
-								<span class="catalog-category">Гель для волос</span>
+							<a href="#">
+								<img src="img/product-5.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
 							</a>
-							<a href="#"><span class="catalog-item-title">«AMERICAN CREW»</span></a>
+							<p class="catalog-item-name">
+								<a href="#">
+									<span class="catalog-category">Гель для волос</span>
+								</a>
+								<a href="#">
+									<span class="catalog-item-title">«AMERICAN CREW»</span>
+								</a>
+							</p>
 							<p class="catalog-item-price">
 								<b>300 ₽</b>
 								<button type="submit" class="button">Купить</button>
 							</p>
 						</li>
 						<li class="catalog-item">
-							<a href="catalog-item-5.html">
-								<p class="catalog-item-image">
-									<img src="img/product-6.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
-								</p>
-								<span class="catalog-category">Набор для бритья</span>
+							<a href="#">
+								<img src="img/product-6.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
 							</a>
-							<a href="#"><span class="catalog-item-title">«Baxter of California»</span></a>
+							<p class="catalog-item-name">
+								<a href="#">
+									<span class="catalog-category">Набор для бритья</span>
+								</a>
+								<a href="#">
+									<span class="catalog-item-title">«Baxter of California»</span>
+								</a>
+							</p>
 							<p class="catalog-item-price">
 								<b>3 900 ₽</b>
 								<button type="submit" class="button">Купить</button>
