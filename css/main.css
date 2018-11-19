@@ -739,17 +739,20 @@ input[type="radio"]:checked + label::before {
 	margin: 0;
 }
 
-.product-info ul {
+.product-info ul,
+.benefits-list {
 	list-style: none;
 	padding: 0;
 }
 
-.product-info li{
+.product-info li,
+.benefit-item {
 	position: relative;
 	padding-left: 20px;
 }
 
-.product-info li::before {
+.product-info li::before,
+.benefit-item::before {
 	content: "";
 	position: absolute;
 	top: 50%;
@@ -791,12 +794,6 @@ input[type="radio"]:checked + label::before {
 .benefits {
 	width: 240px;
 	min-height: 220px;
-}
-
-
-
-.benefits-list {
-	list-style: none;
 }
 
 .prices {
