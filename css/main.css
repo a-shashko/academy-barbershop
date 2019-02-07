@@ -409,6 +409,7 @@ input[type="radio"].visually-hidden {
 .product-info ul {
 	list-style: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	padding: 0;
 }
@@ -430,6 +431,8 @@ input[type="radio"].visually-hidden {
 	background-color: #000000;
 	transform: translateY(-50%) rotate(45deg);
 >>>>>>> parent of 0afa207... fix
+=======
+>>>>>>> parent of 4bcba76... Merge branch 'ashashko'
 }
 
 /*price-list*/
@@ -437,6 +440,7 @@ input[type="radio"].visually-hidden {
 .price-title {
 	margin-top: 50px;
 	margin-bottom: 55px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 	text-align: center;
@@ -450,6 +454,8 @@ input[type="radio"].visually-hidden {
 	z-index: 1;
 	border: 1px solid #000000;
 >>>>>>> parent of 0afa207... fix
+=======
+>>>>>>> parent of 4bcba76... Merge branch 'ashashko'
 }
 
 .price-title h2 {
@@ -465,6 +471,9 @@ input[type="radio"].visually-hidden {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 4bcba76... Merge branch 'ashashko'
 .benefits-list {
 	list-style: none;
 }
