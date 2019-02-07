@@ -408,6 +408,28 @@ input[type="radio"].visually-hidden {
 
 .product-info ul {
 	list-style: none;
+<<<<<<< HEAD
+=======
+	padding: 0;
+}
+
+.product-info li,
+.benefit-item {
+	position: relative;
+	padding-left: 20px;
+}
+
+.product-info li::before,
+.benefit-item::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 8px;
+	height: 8px;
+	background-color: #000000;
+	transform: translateY(-50%) rotate(45deg);
+>>>>>>> parent of 0afa207... fix
 }
 
 /*price-list*/
@@ -415,6 +437,19 @@ input[type="radio"].visually-hidden {
 .price-title {
 	margin-top: 50px;
 	margin-bottom: 55px;
+<<<<<<< HEAD
+=======
+	text-align: center;
+}
+
+.price-title::before {
+	content: "";
+	display: block;
+	position: relative;
+	top: 25px;
+	z-index: 1;
+	border: 1px solid #000000;
+>>>>>>> parent of 0afa207... fix
 }
 
 .price-title h2 {
@@ -429,10 +464,13 @@ input[type="radio"].visually-hidden {
 	min-height: 220px;
 }
 
+<<<<<<< HEAD
 .benefits-list {
 	list-style: none;
 }
 
+=======
+>>>>>>> parent of 0afa207... fix
 .prices {
 	width: 460px;
 	min-height: 220px;
