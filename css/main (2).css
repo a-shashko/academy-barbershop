@@ -1,3 +1,5 @@
+/*css barbershop*/
+
 body {
 	margin: 0;
 	padding: 0;
@@ -8,35 +10,27 @@ body {
 	color: #ffffff;
 	text-transform: uppercase;
 	background-color: #000000;
-	background-image: url("../img/background.jpg");
+	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/background.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
+}
+
+.inner-page {
+	color: #000000;
+	background-color: #ffffff;
+	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/pattern-light.jpg");
+	background-position: 0 0;
+	background-repeat: repeat;
 }
 
 a {
 	text-decoration: none;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
+h3 {
+	font-size: 24px;
+	line-height: 30px;
 }
-
-.visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
-	position: absolute;
-	width: 1px;
-}
-
-.inner-page {
-	color: #000000;
-	background-color: #ffffff;
-	background-image: url("../img/pattern-light.jpg");
-	background-position: 0 0;
-	background-repeat: repeat;
-}
-
 .main-header {
 	margin-bottom: 70px;
 	background-color: #000000;
@@ -59,6 +53,7 @@ input[type="radio"].visually-hidden {
 	height: 24px;
 	padding: 23px 20px;
 }
+
 
 .main-navigation {
 	display: flex;
@@ -99,7 +94,7 @@ input[type="radio"].visually-hidden {
 	background-color: #333333;
 }
 
-.wrapper-main-navigation {
+.wrapper-main-navigation {	
 	width: 100%;
 	margin-bottom: 50px;
 }
@@ -144,7 +139,7 @@ input[type="radio"].visually-hidden {
 	padding: 50px 80px;
 	color: #000000;
 	background-color: #f8f5f12;
-	background-image: url("../img/pattern-light.jpg");
+	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/pattern-light.jpg");
 	background-position: 0 0;
 	background-repeat: repeat;
 }
@@ -318,7 +313,7 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 }
 
-.catalog-category,
+.catalog-category, 
 .catalog-item-title {
 	font-size: 14px;
 	line-height: 18px;
@@ -501,7 +496,7 @@ input[type="radio"].visually-hidden {
 	padding: 65px 0 50px;
 	color: #ffffff;
 	background-color: #333333;
-	background-image: url("../img/pattern-dark.jpg");
+	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/pattern-dark.jpg");
 	background-position: 0 0;
 	background-repeat: repeat;
 }
@@ -553,7 +548,7 @@ input[type="radio"].visually-hidden {
 .modal {
 	color: #000000;
 	background-color: #ffffff;
-	background-image: url("../img/pattern-light.jpg");
+	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/barbershop/img/pattern-light.jpg");
 	background-position: 0 0;
 	background-repeat: repeat;
 }
@@ -563,7 +558,7 @@ input[type="radio"].visually-hidden {
 	line-height: 42px;
 }
 
-.login-form input[type="text"],
+.login-form input[type="text"], 
 .login-form input[type="password"] {
 	font: inherit;
 	color: #000000;
