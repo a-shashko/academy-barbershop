@@ -1,2 +1,2 @@
 Привет!
-# barbershop-2017
+# barbershop

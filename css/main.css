@@ -48,6 +48,7 @@ input[type="radio"].visually-hidden {
 
 .main-header {
 	margin-bottom: 70px;
+
 }
 
 .inner-page .main-header {
@@ -179,6 +180,11 @@ input[type="radio"].visually-hidden {
 	padding: 0 10px;
 }
 
+
+
+
+
+
 .features {
 	margin-bottom: 80px;
 }
@@ -244,6 +250,8 @@ input[type="radio"].visually-hidden {
 	width: 380px;
 	background-color: rgba(0, 128, 0, 0.2);
 	box-shadow: 0 0 0 3px green;
+
+
 }
 
 .news-list {
@@ -295,6 +303,7 @@ input[type="radio"].visually-hidden {
 	font: inherit;
 	text-align: center;
 	cursor: pointer;
+
 	color: #ffffff;
 	background-color: #000000;
 	border: none;
@@ -597,6 +606,7 @@ input[type="radio"]:checked + label::before {
 
 .catalog-category,
 .catalog-item-title {
+
 	line-height: 18px;
 }
 
@@ -629,6 +639,7 @@ input[type="radio"]:checked + label::before {
 	display: flex;
 	margin: 0;
 	padding: 0;
+
 	list-style: none;
 }
 
@@ -654,6 +665,8 @@ input[type="radio"]:checked + label::before {
 }
 
 .pagination-item-current {
+
+
 	background-color: rgba(204, 204, 204, 0.2);
 	color: #000000;
 }
@@ -680,16 +693,21 @@ input[type="radio"]:checked + label::before {
 
 .product-photo-preview {
 	list-style: none;
+
 }
 
 .product-photo-preview li {
 	margin: 25px 0 0;
+
 	line-height: 0;
+
 }
 
 .product-photo-full,
 .product-photo-preview li {
 	box-shadow: 0 0 15px 0 rgba(0, 1, 1, 0.2);
+
+
 }
 
 .product-photo-full:hover,
@@ -742,6 +760,9 @@ input[type="radio"]:checked + label::before {
 .product-info ul,
 .benefits-list {
 	list-style: none;
+
+
+
 	padding: 0;
 	margin: 0;
 }
@@ -762,6 +783,9 @@ input[type="radio"]:checked + label::before {
 	height: 8px;
 	background-color: #000000;
 	transform: translateY(-50%) rotate(45deg);
+
+
+
 }
 
 /*price-list*/
@@ -769,6 +793,21 @@ input[type="radio"]:checked + label::before {
 .price-title {
 	margin-top: 50px;
 	margin-bottom: 70px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	text-align: center;
 }
 
@@ -779,6 +818,9 @@ input[type="radio"]:checked + label::before {
 	top: 25px;
 	z-index: 1;
 	border: 1px solid #000000;
+
+
+
 }
 
 .price-title h2 {
@@ -801,7 +843,23 @@ input[type="radio"]:checked + label::before {
 .prices h3 {
 	margin: 0 0 30px;
 	white-space: pre-line;
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
 
 .prices {
 	width: 460px;
@@ -894,6 +952,7 @@ input[type="radio"]:checked + label::before {
 
 .footer-social {
 	width: 145px;
+
 	text-align: center;
 }
 
@@ -958,6 +1017,7 @@ input[type="radio"]:checked + label::before {
 }
 
 .footer-copyright {
+
 	margin: 0;
 	margin-left: auto;
 	text-align: center;
