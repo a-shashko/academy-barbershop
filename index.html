@@ -18,7 +18,7 @@
 						<ul class="site-navigation">
 							<li><a href="#">Информация</a></li>
 							<li><a href="#">Новости</a></li>
-							<li><a href="price-list.html">Прайс лист</a></li>
+							<li><a href="content.html">Прайс лист</a></li>
 							<li><a href="catalog.html">Магазин</a></li>
 							<li><a href="#">Контакты</a></li>
 						</ul>
@@ -149,19 +149,19 @@
 				</p>
 			</div>
 		</footer>
-		<section class="modal modal-form">
+		<section class="modal modal-login">
 			<h2>Личный кабинет</h2>
-			<p>Введите пожалуйста свой логин и пароль</p>
+			<p class="modal-description">Введите пожалуйста свой логин и пароль</p>
 			<form class="login-form" action="https://echo.htmlacademy.ru/" method="post">
 				<p>
 					<label class="visually-hidden" for="user-login">Логин</label>
-					<input class="login-icon-user" type="text" name="login" id="user-login" value="" placeholder="Логин">
+					<input class="login-icon-user" type="text" name="login" id="user-login" value="" placeholder="Логин" required>
 				</p>
 				<p>
 					<label class="visually-hidden" for="user-password">Пароль</label>
-					<input class="password-icon-user" type="password" name="password" id="user-password" value="" placeholder="Пароль">
+					<input class="login-icon-password" type="password" name="password" id="user-password" value="" placeholder="Пароль" required>
 				</p>
-				<p class="login-password-info">
+				<p class="login-help">
 					<label class="login-checkbox">
 						<input type="checkbox" name="remember" class="visually-hidden">
 						<span class="checkbox-indicator"></span>
@@ -180,5 +180,6 @@
 			</p>
 			<button class="modal-close" type="button">Закрыть</button>
 		</section>
+		<script src="js/popup.js"></script>
 	</body>
 </html>
