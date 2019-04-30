@@ -5,6 +5,7 @@ var form = popup.querySelector("form");
 var login = popup.querySelector("[name=login]");
 var password = popup.querySelector("[name=password]");
 var storage = localStorage.getItem("login");
+var enterButton = popup.querySelector("[type=submit]");
 
 link.addEventListener("click", function(evt) {
   evt.preventDefault();
@@ -23,7 +24,7 @@ close.addEventListener("click", function(evt) {
   popup.classList.remove("modal-error");
 });
 
-form.addEventListener("submit", function(evt) {
+enterButton.addEventListener("click", function(evt) {
   if(!login.value || !password.value) {
     evt.preventDefault();
     popup.classList.add("modal-error");

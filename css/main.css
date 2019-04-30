@@ -1138,13 +1138,13 @@ input[type="radio"]:checked + label::before {
 
 @keyframes shake {
 		0%, 100% {
-			transform: translateX(0);
+			transform: translateX(-50%);
 		}
 		10%, 30%, 50%, 70%, 90% {
-			transform: translateX(-10px);
+			transform: translateX(-55%);
 		}
 		20%, 40%, 60%, 80% {
-			transform: translateX(10px);
+			transform: translateX(-45%);
 		}
 }
 
@@ -1198,7 +1198,7 @@ input[type="radio"]:checked + label::before {
 	left: 2px;
 	height: 3px;
 	width: 20px;
-	background-color: #d0d0d0;
+	background-color: grey;
 }
 
 .modal-close::before {
@@ -1324,11 +1324,15 @@ input[type="radio"]:checked + label::before {
 .modal-map {
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
 	border: 8px solid #ffffff;
 	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.75);
+	transform: translate(-50%, -50%);
 }
 
-.modal-map p {
-	margin: 0;
+.modal-map div {
+	height: 559px;
+	width: 762px;
+	background-image: url("../img/map.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
 }
