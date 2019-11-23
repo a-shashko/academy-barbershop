@@ -150,7 +150,7 @@ input[type="radio"].visually-hidden {
 }
 
 .site-navigation-current a[href] {
-	pointer-events: none;
+/*	pointer-events: none;*/
 }
 
 .site-navigation-current a:not([href]) {
